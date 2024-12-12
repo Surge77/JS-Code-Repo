@@ -21,5 +21,5 @@ because of issue in block scope and functional scope
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
-//This line logs a formatted table in the console displaying the values of the array
-//  [accountId, accountEmail, accountPassword, accountCity, accountState], with each value listed as a row under an indexed column.
+//This line logs a formatted table in the console displaying the values of the array 
+// [accountId, accountEmail, accountPassword, accountCity, accountState], with each value listed as a row under an indexed column.
