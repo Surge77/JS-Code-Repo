@@ -58,6 +58,9 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+//Object destructuring 
+
+
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -66,7 +69,11 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+//Object destructuring is a syntax that allows you to unpack properties from an object into individual variables.
+//It's a concise and readable way to extract data from objects.
+const {courseInstructor: instructor} = course //The property courseInstructor is being extracted from the course object.
+//The value of the courseInstructor property is assigned to a new variable named instructor.
+//You can now use instructor as a variable to access the value of course.courseInstructor.
 
 // console.log(courseInstructor);
 console.log(instructor);
@@ -77,6 +84,8 @@ console.log(instructor);
 //     "price": "free"
 // }
 
+
+//sometimes we get the data from api in the form of arrays inside which objects are present
 [
     {},
     {},
