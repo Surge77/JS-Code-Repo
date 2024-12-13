@@ -13,6 +13,7 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //The filter method is a built-in function for arrays
 //The filter method is typically used to extract a subset of elements from an array based on a condition.
 
+//Filter method also takes callbacks
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
@@ -28,6 +29,7 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // console.log(newNums);
 
 
+//Array of objects
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
@@ -42,6 +44,7 @@ const books = [
 
   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
+  //Whenever we open a scope i.e {} we always need to write return keyword
   userBooks = books.filter( (bk) => { 
     return bk.publish >= 1995 && bk.genre === "History"
 })
